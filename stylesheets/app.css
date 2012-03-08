@@ -9,6 +9,11 @@
 :: Page Name 2
 */
 
+.logo
+{
+	text-align:center;
+	margin-top:300px;
+}
 
 /* -----------------------------------------
    Shared Styles
