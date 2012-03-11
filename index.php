@@ -1,3 +1,7 @@
+<?php
+	if($_SERVER['HTTP_HOST'] != "www.coderdojo-rotterdam.nl")
+		header("location: http://www.coderdojo-rotterdam.nl");
+?>
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -11,8 +15,9 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
 
-	<title>Welcome to CoderDojo Rotterdam /\ Welkom bij CoderDojo Rotterdam</title>
-  
+	<title>CoderDojo Rotterdam | Leer kinderen gratis programmeren!</title>
+	<meta name="description" content="Bij CoderDojo Rotterdam bieden wij kinderen van 7-18 jaar gratis les aan om te leren programmeren. Dit gaat van websites tot games tot software!"/>
+	
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="stylesheets/foundation.css">
 	<link rel="stylesheet" href="stylesheets/app.css">
@@ -37,7 +42,7 @@
 			<div class="twelve columns logo">
 				<p>
 					<img src="images/coderdojo-rotterdam.jpg" alt="CoderDojo Rotterdam"/><br/>
-					Follow us <a href="http://twitter.com/coderdojordam">@CoderDojoRdam</a>
+					Volg ons op <a href="http://twitter.com/coderdojordam">@CoderDojoRdam</a> | Like ons op <a href="https://www.facebook.com/pages/CoderDojo-Rotterdam/247664725326261">Facebook</a> | Stuur ons een <a href="mailto:chris@coderdojo-rotterdam.nl">email</a>
 				</p>
 			</div>
 		</div>
