@@ -1,3 +1,6 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^coderdojo-rotterdam\.nl [NC]
-RewriteRule ^(.*)$ http://www.coderdojo-rotterdam.nl/$1 [L,R=301] 
+RewriteRule ^(.*)$ http://www.coderdojo-rotterdam.nl/$1 [L,R=301]
+
+# Redirect the admin pages
+RewriteRule ^([A-Za-z0-9-_/]*)$ /index.php?page=$1
