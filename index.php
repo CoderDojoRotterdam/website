@@ -16,9 +16,14 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
 
-	<title>CoderDojo Rotterdam | Leer	 kinderen gratis programmeren!</title>
+	<title>CoderDojo Rotterdam | Leer kinderen gratis programmeren!</title>
 	<meta name="description" content="Bij CoderDojo Rotterdam bieden wij kinderen van 7-18 jaar gratis les aan om te leren programmeren. Dit gaat van websites tot games tot software!"/>
 	<link rel="icon" type="image/ico" href="/favicon.ico">
+	<link rel="image_src" href="http://www.coderdojo-rotterdam.nl/preview.jpg" /> 
+	<meta property="og:title" content="Vrijwilligers leren kinderen programmmeren voor noppes!" />
+	<meta property="og:description" content="Ben jij jonger dan 18 jaar en wil je leren programmeren? Dat kan! Schrijf je nu gratis in voor de CoderDojo van Rotterdam!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://www.coderdojo-rotterdam.nl/preview.jpg" />
 
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="stylesheets/foundation.css">
