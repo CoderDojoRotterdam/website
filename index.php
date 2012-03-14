@@ -41,6 +41,7 @@
 
 </head>
 <body>
+
 	<!-- container -->
 	<div class="container">
 
@@ -79,6 +80,27 @@
 				?>
 			</div>
 			<div class="four columns sidebar">
+				<!-- Begin MailChimp Signup Form -->
+				<h2>Schrijf je in voor de nieuwsbrief</h2>
+				<p>Als je wilt weten wanneer de volgende Dojo in Rotterdam gehouden wordt, kun je je voor onze nieuwsbrief inschrijven. Wij houden je dan op de hoogte!</p>
+				<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}
+					#mc_embed_signup form.validate {padding:0px !important;}
+					#mc_embed_signup input.email {width:100%;}
+					#mc_embed_signup .button {float:right;background-color:#588C3E;}
+					#mc_embed_signup .clear {clear:both;}
+					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+				</style>
+				<div id="mc_embed_signup">
+					<form action="http://coderdojo-rotterdam.us4.list-manage1.com/subscribe/post?u=40ac92f1b076c51cb7468993a&amp;id=aaa7e3ea48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="emailadres" required>
+						<div class="clear"><input type="submit" value="Inschrijven" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+				</div>
+				<br/>
+				<!--End mc_embed_signup-->
 				<h2>Andere CoderDojo&apos;s</h2>
 				<h3>United States</h3>
 				<ul class="block-grid two-up">
@@ -140,6 +162,7 @@
 			<div class="twelve columns">
 				<p class="left">Copyright &copy; Coderdojo Rotterdam 2012</p>
 				<p class="right">
+					<a href="http://eepurl.com/j30pT">Nieuwsbrief</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 					<a href="http://www.coderdojo.com" target="_blank">CoderDojo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 					Made by <a href="http://www.christianvermeulen.net" target="_blank">Christian Vermeulen</a>
 				</p>
