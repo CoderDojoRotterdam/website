@@ -51,10 +51,13 @@
 			</div>
 			<div class="seven columns socialmedia">
 				<a href="http://twitter.com/CoderDojoRdam" target="_blank">
-					<img src="images/twitter.png" alt="Volg ons op Twitter!"/>
+					<img src="images/twitter.png" alt="Volg ons op Twitter!" width="48"/>
 				</a>
 				<a href="https://www.facebook.com/pages/CoderDojo-Rotterdam/247664725326261" target="_blank">
-					<img src="images/facebook.png" alt="CoderDojo Rotterdam"/>
+					<img src="images/facebook.png" alt="CoderDojo Rotterdam Facebook" width="48"/>
+				</a>
+				<a href="http://coderdojorotterdam.hyves.nl" target="_blank">
+					<img src="images/hyves.png" alt="CoderDojo Rotterdam Hyves" width="48"/>
 				</a>
 			</div>
 		</div>
@@ -190,5 +193,8 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+	<script src="//static.getclicky.com/js" type="text/javascript"></script>
+	<script type="text/javascript">try{ clicky.init(66556120); }catch(e){}</script>
+	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66556120ns.gif" /></p></noscript>
 </body>
 </html>
