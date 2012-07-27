@@ -104,6 +104,12 @@
 	line-height:1.5em;
 }
 
+.content p.center
+{
+	text-align:center;
+	margin-top: 40px;
+}
+
 .content ul
 {
 	list-style-type: disc;
@@ -141,7 +147,7 @@
 }
 
 /* -----------------------------------------
-   CONTENT
+   FOOTER
 ----------------------------------------- */
 
 .footer

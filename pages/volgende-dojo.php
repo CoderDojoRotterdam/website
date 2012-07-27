@@ -1,4 +1,6 @@
 <h2>De volgende dojo</h2>
 <p>Momenteel zijn we nog druk bezig om de eerste Dojo op te zetten. Zodra we meer informatie hebben zal deze hier bekend gemaakt worden!</p>
-<p>Wil jij graag mee helpen om deze Dojo op te zetten? Kijk dan voor meer informatie bij de <a href="/vrijwilligers-gezocht">vrijwilligers</a>.</p>
-<p style="text-align:center;">-> <a href='http://eepurl.com/j30pT'>Schrijf je vast in voor de nieuwsbrief! <-</a></p>
+<p class="center">
+	<a href="/vrijwilligers-gezocht" class="small radius green button">Meld je aan als vrijwilliger</a>
+	<a href='http://eepurl.com/j30pT' class="small radius green button">Schrijf je vast in voor de nieuwsbrief</a>
+</p>
