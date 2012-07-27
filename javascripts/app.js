@@ -93,11 +93,11 @@ jQuery(document).ready(function ($) {
 
 	$('#twitter').liveTwitter('CoderDojoRdam', {imageSize: "48",limit: 5, refresh: false, mode: 'user_timeline',showAuthor: true,localization: {
 		seconds: 'Seconden geleden',
-		minute:  'minuut geleden',
+		minute:  '1 minuut geleden',
 		minutes: 'minuten geleden',
-		hour:    'uur geleden',
+		hour:    '1 uur geleden',
 		hours:   'uur geleden',
-		day:     'dag geleden',
+		day:     '1 dag geleden',
 		days:    'dagen geleden'
 	}});
 

@@ -53,7 +53,7 @@
 				<a href="http://twitter.com/CoderDojoRdam" target="_blank">
 					<img src="images/twitter.png" alt="Volg ons op Twitter!" width="48"/>
 				</a>
-				<a href="https://www.facebook.com/pages/CoderDojo-Rotterdam/247664725326261" target="_blank">
+				<a href="https://www.facebook.com/CoderDojoRotterdam" target="_blank">
 					<img src="images/facebook.png" alt="CoderDojo Rotterdam Facebook" width="48"/>
 				</a>
 				<a href="http://coderdojorotterdam.hyves.nl" target="_blank">

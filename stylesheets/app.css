@@ -171,11 +171,13 @@ span.label a
 #twitter .tweet p
 {
 	margin:0px;
+	padding-left:58px;
 }
 
 #twitter .tweet img
 {
-	float:left;
+	position: absolute;
+	left:0;
 	margin:10px 10px 10px 0px;
 }
 
