@@ -119,6 +119,8 @@
 .content ul li
 {
 	margin:5px;
+	font-size:14px;
+	font-family: "Arial", "sans-serif";
 }
 
 .sidebar p

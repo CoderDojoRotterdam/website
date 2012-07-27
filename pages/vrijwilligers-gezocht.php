@@ -20,5 +20,7 @@
 	<li>Materiaal te lenen</li>
 	<li>Anders namelijk............</li>
 </ul>
-<p>Indien je interesse hebt om mee te werken neem dan contact op met <a href="chris@coderdojo-rotterdam.nl">chris@coderdojo-rotterdam.nl</a>.</p>
-<p style="text-align:center;">-> <a href='http://eepurl.com/j30pT'>Schrijf je vast in voor de nieuwsbrief! <-</a></p>
+<p>Wil jij je aanmelden voor &egrave;&egrave;n of meerdere van deze functies?<br/>Stuur dan een email naar <a href="mailto:chris@coderdojo-rotterdam.nl">chris@coderdojo-rotterdam.nl</a>.</p>
+<p class="center">
+	<a href='http://eepurl.com/j30pT' class="button small green radius">Schrijf je vast in voor de nieuwsbrief!</a>
+</p>
