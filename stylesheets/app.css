@@ -149,6 +149,40 @@
 	font-weight:normal;
 }
 
+span.label a
+{
+	color:#fff;
+}
+
+/* -----------------------------------------
+   TWITTER
+----------------------------------------- */
+#twitter .tweet:first-child
+{
+	border-top: 1px solid #bbb;
+}
+
+#twitter .tweet
+{
+	border-bottom: 1px solid #bbb;
+	padding:10px 0px;
+}
+
+#twitter .tweet p
+{
+	margin:0px;
+}
+
+#twitter .tweet img
+{
+	float:left;
+	margin:10px 10px 10px 0px;
+}
+
+#twitter .tweet span.time
+{
+	display:inline-block;
+}
 /* -----------------------------------------
    FOOTER
 ----------------------------------------- */

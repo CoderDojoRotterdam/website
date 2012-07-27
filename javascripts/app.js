@@ -90,6 +90,15 @@ jQuery(document).ready(function ($) {
 
 	/* DISABLED BUTTONS ------------- */
 	/* Gives elements with a class of 'disabled' a return: false; */
-  
+
+	$('#twitter').liveTwitter('CoderDojoRdam', {imageSize: "48",limit: 5, refresh: false, mode: 'user_timeline',showAuthor: true,localization: {
+		seconds: 'Seconden geleden',
+		minute:  'minuut geleden',
+		minutes: 'minuten geleden',
+		hour:    'uur geleden',
+		hours:   'uur geleden',
+		day:     'dag geleden',
+		days:    'dagen geleden'
+	}});
 
 });

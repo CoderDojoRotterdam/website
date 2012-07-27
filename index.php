@@ -104,60 +104,9 @@
 				</div>
 				<br/>
 				<!--End mc_embed_signup-->
-				<h2>Andere CoderDojo&apos;s</h2>
-				<h3>United States</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/25" target="_blank">GitHub, San Fran</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/28" target="_blank">New York City</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/36" target="_blank">Pittsburgh</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/38" target="_blank">Indianapolis</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/40" target="_blank">Lake County, IL</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/47" target="_blank">Fargo-Moorhead</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/48" target="_blank">Austin</a></li>
-				</ul>
-				<h3>Ireland</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/23" target="_blank">NSC Cork</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/27" target="_blank">Dublin</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/29" target="_blank">Carlow</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/32" target="_blank">Limerick</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/34" target="_blank">Athlone</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/37" target="_blank">Kilkenny</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/41" target="_blank">WicklowTown</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/43" target="_blank">Galway City</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/44" target="_blank">Dublin D15</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/46" target="_blank">DublinUCD</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/49" target="_blank">Mayo - Castlebar</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/50" target="_blank">Maynooth</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/53" target="_blank">Athenry</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/54" target="_blank">Kinsale</a></li>
-				</ul>
-				<h3>Engeland</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/42" target="_blank">Londen</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/45" target="_blank">Newry</a></li>
-					<li><a href="http://zen.coderdojo.com/dojo/52" target="_blank">Cambridge</a></li>
-				</ul>
-				<h3>Russian Federation</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/55" target="_blank">St. Petersburg</a></li>
-				</ul>
-				<h3>Netherlands</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/33" target="_blank">Den Haag</a></li>
-				</ul>
-				<h3>Japan</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/57" target="_blank">Tokyo</a></li>
-				</ul>
-				<h3>Italy</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/56" target="_blank">Florence</a></li>
-				</ul>
-				<h3>Indonesie</h3>
-				<ul class="block-grid two-up">
-					<li><a href="http://zen.coderdojo.com/dojo/51" target="_blank">Bandung</a></li>
-				</ul>
+				<h2>@CoderDojoRdam</h2>
+				<p style="text-align:right;">Volg ons op <span class="blue radius label"><a href="http://twitter.com/CoderDojoRdam" target="_blank" class="">Twitter</a></span></p>
+				<div id="twitter"></div>
 			</div>
 		</div>
 
@@ -178,10 +127,11 @@
 
 
 	<!-- Included JS Files -->
-	<script src="javascripts/jquery.min.js"></script>
-	<script src="javascripts/modernizr.foundation.js"></script>
-	<script src="javascripts/foundation.js"></script>
-	<script src="javascripts/app.js"></script>
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/jquery.livetwitter.min.js"></script>
+	<script src="/javascripts/modernizr.foundation.js"></script>
+	<script src="/javascripts/foundation.js"></script>
+	<script src="/javascripts/app.js"></script>
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-7869825-23']);
