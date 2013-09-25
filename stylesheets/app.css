@@ -1,7 +1,7 @@
 /* Foundation v2.2 http://foundation.zurb.com */
 /* Artfully masterminded by ZURB  */
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
@@ -92,6 +92,16 @@
 {
 	font-family:'Sanchez',serif;
 	font-size:26px;
+	color:#588c3e;
+	font-weight:normal;
+	margin:20px 0px 10px;
+}
+
+.content h3,
+.sidebar h3
+{
+	font-family:'Sanchez',serif;
+	font-size:18px;
 	color:#588c3e;
 	font-weight:normal;
 	margin:20px 0px 10px;

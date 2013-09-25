@@ -19,7 +19,7 @@
 	<title>CoderDojo Rotterdam | Leer kinderen gratis programmeren!</title>
 	<meta name="description" content="Bij CoderDojo Rotterdam bieden wij kinderen van 7-18 jaar gratis les aan om te leren programmeren. Dit gaat van websites tot games tot software!"/>
 	<link rel="icon" type="image/ico" href="/favicon.ico">
-	<link rel="image_src" href="http://www.coderdojo-rotterdam.nl/preview.jpg" /> 
+	<link rel="image_src" href="http://www.coderdojo-rotterdam.nl/preview.jpg" />
 	<meta property="og:title" content="Vrijwilligers leren kinderen programmmeren voor noppes!" />
 	<meta property="og:description" content="Ben jij jonger dan 18 jaar en wil je leren programmeren? Dat kan! Schrijf je nu gratis in voor de CoderDojo van Rotterdam!" />
 	<meta property="og:type" content="website" />
@@ -41,6 +41,14 @@
 
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1&appId=183242571742526";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<!-- container -->
 	<div class="container">
@@ -74,7 +82,7 @@
 		</div>
 
 		<div class="row">
-			<div class="eight columns content">		
+			<div class="eight columns content">
 				<?php
 					if(file_exists("pages/".$page.".php"))
 						include "pages/".$page.".php";
@@ -83,8 +91,11 @@
 				?>
 			</div>
 			<div class="four columns sidebar">
+				<h2>Like ons op Facebook</h2>
+				<div class="fb-like-box" data-href="https://www.facebook.com/coderdojorotterdam" data-width="298" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+				<br/>
 				<!-- Begin MailChimp Signup Form -->
-				<h2>Schrijf je in voor de nieuwsbrief</h2>
+				<h2>Nieuwsbrief</h2>
 				<p>Als je wilt weten wanneer de volgende Dojo in Rotterdam gehouden wordt, kun je je voor onze nieuwsbrief inschrijven. Wij houden je dan op de hoogte!</p>
 				<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 				<style type="text/css">
@@ -102,11 +113,6 @@
 						<div class="clear"><input type="submit" value="Inschrijven" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 					</form>
 				</div>
-				<br/>
-				<!--End mc_embed_signup-->
-				<h2>@CoderDojoRdam</h2>
-				<p style="text-align:right;">Volg ons op <span class="blue radius label"><a href="http://twitter.com/CoderDojoRdam" target="_blank" class="">Twitter</a></span></p>
-				<div id="twitter"></div>
 			</div>
 		</div>
 
